@@ -1,0 +1,26 @@
+<!--javacripat program to count total number of negative elements in array-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arr = [ 10, -2, 5, -20, 1, 50, 60, -50, -12, -9];
+        var n = 10;
+        var count = 0;
+
+        for (var i = 0; i < n; i++)
+        {
+            if(arr[i] < 0)
+            {
+                count++;
+            }
+        }
+        document.write("Total negative elements in array:- ", count);
+    </script>
+</body>
+</html>

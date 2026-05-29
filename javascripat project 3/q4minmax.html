@@ -1,0 +1,32 @@
+<!--javacripat program to find maximum and minimum element in array-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arr = [10, -5, -3, 4, -9, 15, -18, 14, -98, 80];
+        var n = 10;
+        var max = arr[0];
+        var min = arr[0];
+
+        for(var i = 1; i < n; i++)
+        {
+            if(arr[i] > max)
+            {
+                max = arr[i];
+            }   
+            if(arr[i] < min)
+            {
+                min = arr[i];
+            }
+        }
+        document.write("Maximum element:- ", max,"<br>");
+        document.write("Minimum element:- ", min,"<br>");
+    </script>
+</body>
+</html>
